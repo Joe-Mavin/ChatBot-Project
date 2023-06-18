@@ -1,0 +1,94 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Greetings"],
+      "responses": ["Hello! How can I assist you today?", "Hi! How can I help you?", "Hey there! How may I assist you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "Bye", "See you later"],
+      "responses": ["Goodbye! Have a great day!", "Farewell! Feel free to come back anytime.", "See you later!"]
+    },
+    {
+      "tag": "admissions",
+      "patterns": ["How can I apply?", "What are the admission requirements?", "When is the application deadline?","What are the minimum qualifications required for admission?"],
+      "responses": ["Application forms can be downloaded on our website for the respective course you are applying for or collected at the Admissions Office – Laikipia University Main Campus","For:\n\nDoctoral (PhD): Relevant master’s degree\nMasters: Relevant degree\nBachelors: C+ (plus)\nDiploma: C (plain)\nCertificate: D+ (plus)"]
+    },
+    {
+      "tag": "financial_aid",
+      "patterns": ["How can I apply for financial aid?", "What scholarships are available?", "Is there any financial assistance?"],
+      "responses": ["To apply for financial aid, please visit our university's financial aid office or their website. They will guide you through the application process and provide information about available scholarships and financial assistance."]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["How can I contact the university?", "What is the university's phone number?", "Can I get the email address?"],
+      "responses": ["You can contact our university's main office at +254 020 2667731/2/3/4 or send an email to info@laikipia.ac.ke. Feel free to reach out to us with any questions or concerns you may have."]
+    },
+    {
+      "tag": "location",
+      "patterns": ["Where is the university located?", "What is the address of the university?", "Tell me about the campus location.", "Which county is Laikipia University located?"],
+      "responses": ["Laikipia University is located in Laikipia County, along the Nyahururu-Nakuru Highway. It is situated approximately 11KM from Nyahururu town and 50KM from Nakuru town."]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["What courses do you offer?", "Can you provide information about the courses?", "Tell me about the curriculum.", "How many programmes are offered at laikipia University?","Can you tell me about your academic programmes"],
+      "responses": ["There are 28 degree academic programmes ( bachelors, masters and doctoral) offered which are organized within four schools (faculties); School of Education, School of Humanities and Development Studies, School of Science and Applied Technology and School of Business and Economics. In addition, certificates and diploma courses are also offered."]
+    },
+    {
+      "tag": "fee",
+      "patterns": ["How much is the tuition fee?", "What are the fees for the courses?", "Tell me about the cost of education."],
+      "responses": ["The tuition fee varies depending on the program and level of study. For detailed information about the fee structure, please visit our university's website or contact the admissions office directly."]
+    },
+    {
+      "tag": "payment options",
+      "patterns": ["Where should I pay school fees?","Which accounts can I use to pay my school fee?"],
+      "responses": ["All fees should be paid at any branch of the following LAIKIPIA UNIVERSITY bank accounts.\n\nCooperative Bank of Kenya  A/c No. 011-295-0177-8000\nKenya Commercial Bank  A/c No. 1101-909-080\nEquity Bank  A/c No. 01602-9584-0456"]
+    },
+    {
+      "tag": "academic_departments",
+      "patterns": ["What academic departments do you have?", "Tell me about the university's departments.", "Can you list the academic divisions?","How many departments are there at Laikipia University?"],
+      "responses": ["We have a wide range of academic departments, including department of commerce,department of economics, department of psychology, department of computing and informatics and more. Each department offers specialized programs and courses within their respective fields."]
+    },
+    {
+      "tag": "operating_hours",
+      "patterns": ["What are the university's operating hours?", "When is the university open?", "Tell me the opening hours and days."],
+      "responses": ["Our university is open Mon-fri from 9am to 5pm. Please note that specific departments and services may have different operating hours. For more precise information, it's recommended to check the website or contact the respective department directly."]
+    },
+    {
+      "tag": "campuses",
+      "patterns": ["How many branches does Laikipia University have?","How many campuses does Laikipia University have?"],
+      "responses": ["Laikipia University has the main campus, with a total enrolment of approximately 10,000 students"]
+    },
+    {
+      "tag": "modes of study",
+      "patterns": ["What are the modes of study?"],
+      "responses": ["Full time, Part time (both weekends and evenings) and  school based."]
+    },
+    {
+      "tag": "Accommodation",
+      "patterns": ["Is there accommodation for students at Laikipia University?","Do students reside within the University?","How is accomodation at Laikipia?","Can I live within the university?"],
+      "responses": ["Laikipia University provides accommodation to students. The bed space within the University is however not sufficient to cater for all students. There are enough affordable hostels within a radius of 3Kms from the university. The hostels are inspected by the university and recommend those that meet habitable standards"]
+    },
+    {
+      "tag": "Timelines",
+      "patterns": ["When are new students admitted?","When is the admission date?"],
+      "responses": ["Admissions to laikipia University occurs as follows:\n\nGovernment sponsored students: September\nSelf- sponsored students: September, January and May\nSelf-sponsored school based students: April, August and December"]
+    },
+    {
+      "tag": "Name",
+      "patterns": ["What's your name?","How do they call you?","You go by?"],
+      "responses": ["Call me Laikie"]
+    },
+    {
+      "tag": "About Me",
+      "patterns": ["What are you all about?","Tell me about you","What do you do?"],
+      "responses": ["Welcome to our university's chatbot, your virtual assistant for all things related to our institution! I'm here to provide you with information, assistance, and guidance throughout your university journey.\n\nWhether you're a prospective student, a current student, a faculty member, or a visitor, I'm here to help you navigate our university's resources and services.\n\nIf you have questions about our university, feel free to ask! I can provide you with details about our rich history, our campus location, and the facilities we offer. Additionally, I can guide you through the admissions process, explaining requirements, deadlines, and how to apply for our various programs.\n\nAre you curious about campus life? I can tell you all about our vibrant student organizations, clubs, and sports teams. If you need support services like counseling, health services, or career development, I've got you covered. And if you need assistance with academic resources, such as libraries, research centers, or online databases, I can point you in the right direction.\n\nOur exceptional faculty members are a valuable resource. I can provide information about their expertise, research interests, and contact details. If you're looking for a specific building or room on campus, just let me know, and I'll help you find it.\n\nDo you have questions about tuition fees, financial aid, housing options, dining services, transportation, or parking? Ask away! I can also keep you updated on upcoming events, guest lectures, conferences, and important news announcements happening within our university community.\n\nYour feedback is important to us. If you have any suggestions or encounter technical issues, please let me know, and I'll do my best to assist you. If there's a specific topic I can't cover, I'll direct you to the appropriate support channels.\n\nSo, don't hesitate to ask me anything you need to know. I'm here 24/7 to make your university experience as smooth and enjoyable as possible. Let's get started!"]
+    },
+    {
+      "tag": "default",
+      "patterns": ["", "Sorry, I didn't understand.", "Could you please repeat that?"],
+      "responses": ["I'm sorry, but I'm a chatbot and may not have the answer to that. However, I can assist you with general inquiries about the university. Please feel free to ask."]
+    }
+  ]
+}
